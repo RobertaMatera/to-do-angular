@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.todo:nth-child(even) {
+.todo:nth-child(odd) {
   background-color: #eee;
 }
 
@@ -51,9 +51,10 @@ span.inner.done {
   outline: none;
   background: none;
 
-  background-color: #fe4880;
+  background-color: #000000;
   color: #fff;
   margin: 15px auto;
+  border-radius: 5em;
 
   padding: 10px 15px;
   font-size: 18px;

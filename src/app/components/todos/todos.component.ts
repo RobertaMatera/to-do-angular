@@ -9,6 +9,8 @@ import { Todo } from './../../models/todo';
 export class TodosComponent implements OnInit {
   todos!: Todo[];
 
+  inputTodo:string = "";
+
   constructor() {}
 
   ngOnInit(){
